@@ -1,0 +1,20 @@
+{
+    "name": "elsuperbeano/idea",
+    "require": {
+        "predis/predis": "~1.0.0",
+        "ext-phalcon": "~2.0.0"
+    },
+    "authors": [
+        {
+            "name": "ElSuperbeano",
+            "email": "marius.schuette@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-install-cmd": [
+            "chmod +x ./db/create",
+            "./db/create"
+        ]
+    }
+}

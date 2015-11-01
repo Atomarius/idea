@@ -1,0 +1,2 @@
+#!/bin/bash
+rm /tmp/idea.sqlite && sqlite3 /tmp/idea.sqlite < ./db/idea.sql
